@@ -10,22 +10,9 @@
 """
 
 def fibo(n):
-	# 두수를 더할 리스트 
-	ar = [0,1]
-	# 최초 0,1 은 그냥 출력하고
-	print(ar[0])
-	print(ar[1])
-
-	# 무한 돌면서
-	while 1:
-		# 리스트 합계 구하고
-		x = sum(ar)
-		# 합계가 n 을 초과하면 스톱
-		if (x >n):
-			break
-		# 데이터 스왑하고 출력
-		ar[0] = ar[1]
-		ar[1] = x
-		print(x)
-
+	a, b = 0, 1
+	print(a)
+	while b <= n:
+		print(b)
+		a,b = b,a+b
 fibo(15)
