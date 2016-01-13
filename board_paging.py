@@ -22,10 +22,10 @@ m = input()
 n = input()
 
 # m 나누기 n을 하여서 몫과 나머지값을 얻는다.
-a, b = divmod(m,n)
+a, b = divmod(m, n)
 
 # 나머지가 0보다 크면 몫에 1을 더해준다.
 if b > 0:
-	a += 1
+    a += 1
 
 print(a)

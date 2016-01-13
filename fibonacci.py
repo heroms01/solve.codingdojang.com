@@ -9,10 +9,13 @@
 인풋을 정수 n으로 받았을때, n 이하까지의 피보나치 수열을 출력하는 프로그램을 작성하세요
 """
 
+
 def fibo(n):
-	a, b = 0, 1
-	print(a)
-	while b <= n:
-		print(b)
-		a,b = b,a+b
+    a, b = 0, 1
+    print(a)
+    while b <= n:
+        print(b)
+        a, b = b, a + b
+
+
 fibo(15)

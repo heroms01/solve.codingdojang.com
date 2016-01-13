@@ -38,9 +38,12 @@ Now note that 199=995/5 but also 999/5 rounded down to the nearest integer.
 In many programming languages there exists a separate operator for that: div or \.
 If we now also note that 1+2+3+...+p=½*p*(p+1) our program becomes:
 """
+
+
 def mul(n):
-	p = limit / n
-	return n*(p*(p+1)) / 2
+    p = limit / n
+    return n * (p * (p + 1)) / 2
+
 
 limit = 999
-print(mul(3)+mul(5)-mul(15))
+print(mul(3) + mul(5) - mul(15))

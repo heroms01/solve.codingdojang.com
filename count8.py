@@ -9,4 +9,3 @@
 """
 
 print(sum([str(s).count('8') for s in xrange(10000)]))
-
